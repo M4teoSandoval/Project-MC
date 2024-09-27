@@ -8,17 +8,6 @@ public class Main {
         System.out.print("Ingrese el numero en radianes para operar >>> ");
         float numero = scanner.nextFloat();
 
-        public float factorial(int numero) {
-            float resultadoFactorial = 1; // Inicializa el resultado en 1
-
-            while (numero > 0) {
-                resultadoFactorial *= numero; // Multiplica el resultado por el número actual
-                numero--; // Decrementa el número
-            }
-
-            return resultadoFactorial; // Devuelve el resultado
-        }
-
         switch (opcionOperacion){
             case 1:
                 float resultado = ((numero)*(numero)*(numero)/numero);
